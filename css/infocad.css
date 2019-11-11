@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+#container_veiculo {
+  position: relative;
+  max-width: 360px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #660099;
+}
+#cadastro_veiculo {
+  padding: 10px;
+  margin-top: 20px;
+}
+fieldset {
+  padding: 10px;
+}
+input {
+  margin-top: 10px;
+}
+#dados_veiculo {
+  padding: 10px;
+}
+table,
+th,
+tr,
+td {
+  color: #ffffff;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 1px;
+}
+#img_veiculo {
+  padding: 10px;
+}
+img {
+  width: 100%;
+}
+.link_voltar{
+  font-size: 2rem;
+  color: #ffffff;
+  float: left;
+}
+.link_avancar{
+  font-size: 2rem;
+  color: #ffffff;
+  float: right;
+}
+
+.estilo_link_voltar{
+  margin-bottom: 20px;
+}

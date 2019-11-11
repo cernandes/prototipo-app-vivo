@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+#container_info_tec {
+  position: relative;
+  max-width: 360px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #660099;
+}
+fieldset {
+  color: #ffffff;
+  padding: 10px;
+}
+.itens {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 5px 5px rgb(66, 00, 99);
+}
+h2 {
+  cursor: pointer;
+  padding: 10px;
+  font-family: sans-serif;
+}
+.estiloh2::after {
+  content: " + ";
+  float: right;
+}
+input {
+  display: none;
+}
+.conteudo {
+  display: none;
+  transition: 0.8s ease;
+  font-family: sans-serif;
+  line-height: 1.4em;
+}
+input:checked + .conteudo {
+  display: block;
+}
+.link_voltar{
+  font-size: 2rem;
+  color: #ffffff;
+  float: left;
+}
+.link_avancar{
+  font-size: 2rem;
+  color: #ffffff;
+  float: right;
+}
+
+.estilo_link_voltar{
+  margin-bottom: 20px;
+}
