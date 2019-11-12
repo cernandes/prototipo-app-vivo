@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Baloo+Bhai|Fredoka+One&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -5,7 +7,7 @@
   text-decoration: none;
 }
 body {
-  font-family: sans-serif;
+  font-family: 'roboto' sans-serif;
 }
 #container_login {  
   max-width: 360px;
@@ -40,22 +42,21 @@ li {
 }
 a {
   color: #ffffff;
-  font-family: cursive, 'Arial Narrow Bold', sans-serif;
+  font-family: 'roboto' sans-serif;
 }
 .vivinho_login { 
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin: 50px 0;  
 }
-img {
-  height: 50%;
-  width: 50%;
+img { 
+  width: 40%;
 }
 .titulo_vivo_auto { 
   color: #ffffff;
   text-align: center;
   font-size: 2rem;
-  font-family: cursive, 'Arial Narrow Bold', sans-serif; 
+  font-family: 'Fredoka One', cursive;  
 }
 .login {
   width: 200px;
@@ -67,3 +68,12 @@ img {
 label {
   color: #ffffff;
 }
+.entrar {
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 6px black;
+}
+
