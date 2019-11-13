@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Baloo+Bhai|Fredoka+One&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -17,6 +19,33 @@ body {
   margin: 0 auto;
   padding: 10px;
   background-color: #660099;
+}
+header {
+  width: 100%;
+  height: 50px;
+}
+.menu_hamburguer {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.nav_menu {
+  margin-top: -60px;
+  transform: translateY(-150%);
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+input[type="checkbox"]:checked ~ .nav_menu {
+  transform: translateY(0);
+}
+li {
+  padding: 20px;
+}
+a {
+  color: #ffffff;
+  font-family: 'roboto' sans-serif;
 }
 fieldset {
   color: #ffffff;
@@ -49,17 +78,17 @@ input {
 input:checked + .conteudo {
   display: block;
 }
-.link_voltar{
+.link_voltar {
   font-size: 2rem;
   color: #ffffff;
   float: left;
 }
-.link_avancar{
+.link_home {
   font-size: 2rem;
-  color: #ffffff;
-  float: right;
+  color: #ffffff;  
 }
-
-.estilo_link_voltar{
-  margin-bottom: 20px;
+.estilo_times {
+  font-size: 3rem;
+  float: right;
+  margin-top: -15px;
 }

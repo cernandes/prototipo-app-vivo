@@ -9,33 +9,33 @@
 body {
   font-family: 'roboto' sans-serif;
 }
-#container_login {  
+#container_login {
   max-width: 360px;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #660099; 
-  margin: 0 auto; 
+  background-color: #660099;
+  margin: 0 auto;
 }
 .menu_hamburguer {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-left: 10px;
 }
 input[type="checkbox"] {
   display: none;
 }
-header {   
+header {
   width: 100%;
   height: 50px;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.nav_menu {  
-  transform: translateX(-100%);  
+.nav_menu {
+  transform: translateX(-100%);
   transition: 0.4s ease;
   background-color: rgba(0, 0, 0, 0.5);
 }
 input[type="checkbox"]:checked ~ .nav_menu {
-  transform: translateX(0); 
+  transform: translateX(0);
 }
 li {
   padding: 20px;
@@ -44,19 +44,19 @@ a {
   color: #ffffff;
   font-family: 'roboto' sans-serif;
 }
-.vivinho_login { 
+.vivinho_login {
   display: flex;
   justify-content: center;
-  margin: 50px 0;  
+  margin: 50px 0;
 }
-img { 
+img {
   width: 40%;
 }
-.titulo_vivo_auto { 
+.titulo_vivo_auto {
   color: #ffffff;
   text-align: center;
   font-size: 2rem;
-  font-family: 'Fredoka One', cursive;  
+  font-family: 'Fredoka One', cursive;
 }
 .login {
   width: 200px;
@@ -76,4 +76,6 @@ label {
   margin-bottom: 10px;
   box-shadow: 2px 2px 6px black;
 }
-
+.estilo_botao {
+  color: #660099;
+}
