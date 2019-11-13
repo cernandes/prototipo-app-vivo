@@ -1,1 +1,7 @@
 # prototipo-app-vivo
+Protótipo para futuro desenvolvimento de um app de administração e controle de manutenção automobilística, o propósito é criar um app diferente que possa trazer todas as informações pertinentes aos modelos cadastrados pelo usuário, dessa forma o app fica com duas partes distintas, sendo uma parte administrativa com a identificação completa do veículo, principais débitos, cotações de seguro, preço médio baseado na tabela fipe e muitas outras funcionalidades.
+A segunda parte fica por com as características técnicas e manutenção do veículo, dados técnicos das principais trocas de manutenção ajudaram o usuário poderem comprar de forma segura tudo aquilo que precisa de forma mais assertiva.
+Também será implementado um histórico de manutenção, os mais diversos alertas de obrigações legais, manutenção e muito mais.
+A princípio o protótipo foi desenvolvido de forma mais rudimentar usando apenas HTML e CSS para ilustrar o propósito, futuramente será implementado a interatividade com o uso de JavaScript e uma melhor experiência através de um design mais atraente, tudo isso ainda em HTML e CSS já que ainda não domino tecnologias mobile para construção de app. Espero em breve dominar tecnologias como React para poder criar o app propriamente dito já com todas as funcionalidades implementadas, consumindo as APIs apropriadas para que este seja um app funcional.
+
+https://cernandes.github.io/prototipo-app-vivo/
